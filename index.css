@@ -196,6 +196,87 @@ Dark Text = #1e2923
     color: #174a3a;
 }
 
+/* Intro Section */
+
+.intro-section{
+    padding: 100px 7%;
+    background: #f7f8f3;
+    text-align: center;
+}
+
+.section-heading{
+    max-width: 750px;
+    margin: 0px auto 60px;
+}
+
+.section-tag{
+    color: #3a7d44;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.section-heading h2{
+    font-family: "Poppins",sans-serif;
+    font-size: 42px;
+    line-height: 1.2;
+    color: #174a3a;
+    margin-bottom: 20px;
+}
+
+.section-heading h2 span{
+    color: #3a7d44;
+}
+
+.section-description{
+    color: #5d665f;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.intro-features{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.feature-box{
+    background: white;
+    padding: 35px 30px;
+    text-align: left;
+    border: 1px solid #e5e8e3;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.feature-box:hover{
+    transform: translateY(-5px);
+}
+
+.feature-number{
+    color: #f4c542;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.feature-box h3{
+    color: #174a3a;
+    font-family: "Poppins",sans-serif;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.feature-box p{
+    color: #66706a;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
 
 
 
@@ -251,6 +332,19 @@ Dark Text = #1e2923
     .hero-buttons{
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .intro-section{
+        padding: 70px 7%;
+    }
+
+    .section-heading h2{
+        font-size: 34px;
+    }
+
+    .intro-features{
+        grid-template-columns: 1fr;
+        gap: 18px;
     }
 }
 
