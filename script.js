@@ -14,3 +14,13 @@ links.forEach(function (link){
         navLinks.classList.remove("show");
     });
 });
+
+// Solar Calculator
+
+const calculateBtn = document.getElementById("calculateBtn");
+
+calculateBtn.addEventListener("click",function(){
+    const energy = document.getElementById("energyInput").value;
+    const savings = energy*0.30;
+    document.getElementById("result").innerHTML="Estimated monthly solar saving:"+savings.toFixed(1)+"kWh";
+});
