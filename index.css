@@ -473,6 +473,192 @@ Dark Text = #1e2923
     font-weight: 600;
 }
 
+/* WIND POWER */
+
+
+/* Bar Animation for Chart */
+
+@keyframes growBar{
+    from{
+        height: 0px;
+    }
+}
+
+.wind-section{
+    padding: 100px 7%;
+    background: #f7f8f3;
+}
+
+.wind-content{
+    max-width: 1150px;
+    margin: 0px auto 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.wind-image img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.wind-text{
+    max-width: 550px;
+}
+
+.wind-tag{
+    color: #3a7d44;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.wind-title{
+    color: #174a3a;
+    font-family: "Poppins",sans-serif;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.wind-title span{
+    color: #3a7d44;
+}
+
+.wind-description{
+    color: #66706a;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.wind-button{
+    display: inline-block;
+    padding: 13px 22px;
+    background: #174a3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.wind-button:hover{
+    background: #3a7d44;
+}
+
+.wind-process{
+    max-width: 1100px;
+    margin: 0px auto 100px;
+}
+
+.wind-heading{
+    text-align: center;
+    max-width: 750px;
+    margin: 0px auto 50px;
+}
+
+.wind-process-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.wind-process-box{
+    padding: 30px;
+    background: white;
+    border: 1px solid #e5e8e3;
+    border-radius: 8px;
+}
+
+.wind-number{
+    color: #f4c542;
+    font-weight: 700;
+}
+
+.wind-process-box h3{
+    color: #174a3a;
+    font-family: "Poppins", sans-serif;
+    margin: 15px 0px 10px;
+}
+
+.wind-process-box p{
+    color: #66706a;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.wind-data{
+    max-width: 900px;
+    margin: auto;
+}
+
+.wind-data-description{
+    color: #66706a;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.chart-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 320px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+}
+
+.chart-item{
+    width: 18%;
+    text-align: center;
+}
+
+.chart-item p{
+    color: #174a3a;
+    font-weight: 600;
+}
+
+.bar-background{
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    margin: 15px 0px;
+    background: #e8eee9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bar{
+    width: 100%;
+    background: #3a7d44;
+    animation: growBar 1.5s ease;
+}
+
+.bar-one{
+    height: 35%;
+}
+
+.bar-two{
+    height: 70%;
+}
+
+.bar-three{
+    height: 50%;
+}
+
+.bar-four{
+    height: 85%;
+}
+
+.chart-item span{
+    color: #66706a;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 
@@ -573,6 +759,45 @@ Dark Text = #1e2923
 
     .calculator-title{
         font-size: 30px;
+    }
+
+    .wind-section{
+        padding: 70px 7%;
+    }
+
+    .wind-content{
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .wind-title{
+        font-size: 34px;
+    }
+
+    .wind-image img{
+        height: 300px;
+    }
+
+    .wind-process-container{
+        grid-template-columns: 1fr;
+    }
+
+    .chart-box{
+        height: auto;
+        padding: 20px;
+        gap: 12px;
+    }
+
+    .chart-item{
+        width: 22%;
+    }
+
+    .bar-background{
+        height: 150px;
+    }
+
+    .chart-item p{
+        font-size: 12px;
     }
 }
 
