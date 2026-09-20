@@ -660,6 +660,150 @@ Dark Text = #1e2923
     font-weight: 600;
 }
 
+/* GREEN LIFESTYLE */
+
+.lifestyle-section{
+    padding: 100px 7%;
+    background: #ddefe2;
+}
+
+.lifestyle-heading{
+    max-width: 750px;
+    margin: 0px auto 60px;
+    text-align: center;
+}
+
+.lifestyle-tag{
+    color: #3a7d44;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.lifestyle-title{
+    color: #174a3a;
+    font-family: "Poppins",sans-serif;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.lifestyle-title span{
+    color: #3a7d44;
+}
+
+.lifestyle-description{
+    color: #526158;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.lifestyle-container{
+    max-width: 1150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.lifestyle-card{
+    background: #f7f8f3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.lifestyle-image{
+    width: 100%;
+    height: 380px;
+}
+
+.lifestyle-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lifestyle-card-content{
+    padding: 25px;
+}
+
+.lifestyle-number{
+    color: #f4c542;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.lifestyle-card-content h3{
+    color: #174a3a;
+    font-family: "Poppins",sans-serif;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.lifestyle-card-content p{
+    color: #66706a;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.lifestyle-link{
+    display: inline-block;
+    margin-top: 18px;
+    color: #3a7d44;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.lifestyle-link:hover{
+    color: #174a3a;
+}
+
+.eco-tips{
+    max-width: 1150px;
+    margin: 100px auto 0px;
+}
+
+.eco-tips-heading{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.tips-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.tip-box{
+    padding: 25px;
+    background: #f7f8f3;
+    border-radius: 8px;
+}
+
+.tip-icon{
+    display: inline-block;
+    margin-bottom: 18px;
+    color: #f4c542;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.tip-box h3{
+    color: #174a3a;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.tip-box p{
+    color: #66706a;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
 
 
 
@@ -799,6 +943,27 @@ Dark Text = #1e2923
     .chart-item p{
         font-size: 12px;
     }
+
+    .lifestyle-section{
+        padding: 70px 7%;
+    }
+
+    .lifestyle-title{
+        font-size: 34px;
+    }
+
+    .lifestyle-container{
+        grid-template-columns: 1fr;
+    }
+
+    .lifestyle-image{
+        height: 300px;
+    }
+
+    .tips-container{
+        grid-template-columns: 1fr;
+    }
+
 }
 
 
