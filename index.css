@@ -878,8 +878,297 @@ Dark Text = #1e2923
     line-height: 1.6;
 }
 
+/* Contact Section */
+
+.contact-section{
+    padding: 100px 7%;
+    background: #f7f8f3;
+}
+
+.contact-heading{
+    max-width: 700px;
+    margin: 0px auto 60px;
+    text-align: center;
+}
+
+.contact-tag{
+    color: #3a7d44;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.contact-title{
+    color: #174a3a;
+    font-family: "Poppins",sans-serif;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.contact-title span{
+    color: #3a7d44;
+}
+
+.contact-description{
+    color: #66706a;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.contact-container{
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.contact-info{
+    padding: 35px;
+    background: #ddefe2;
+    border-radius: 10px;
+}
+
+.contact-info h3{
+    color: #174a3a;
+    font-family: "Poppins",sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact-info-description{
+    color: #526158;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.contact-detail{
+    margin-bottom: 20px;
+}
+
+.contact-detail h4 {
+    color: #174A3A;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contact-detail p {
+    color: #66706a;
+    font-size: 14px;
+}
+
+.contact-form {
+    padding: 35px;
+    background: white;
+    border: 1px solid #e5e8e3;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #174A3A;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d7ddd8;
+    border-radius: 5px;
+    background: #F7F8F3;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3A7D44;
+}
+
+.contact-button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background: #174A3A;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background: #3A7D44;
+}
+
+/* CtA Section */
+
+.cta-section {
+    padding: 90px 7%;
+    background: #3A7D44;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.cta-tag {
+    color: #F4C542;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.cta-title {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.cta-title span {
+    color: #F4C542;
+}
+
+.cta-description {
+    color: #DDEFE2;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 13px 25px;
+    background: #F4C542;
+    color: #174A3A;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.cta-button:hover {
+    background: white;
+}
+
+/* FOOTER */
+
+.footer-section {
+    padding: 70px 7% 20px;
+    background: #102F26;
+}
+
+.footer-container {
+    max-width: 1150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.3fr;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-logo {
+    display: inline-block;
+    color: #F4C542;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.footer-logo span {
+    color: white;
+}
+
+.footer-text {
+    max-width: 300px;
+    color: #B8C9C0;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.footer-links a {
+    display: block;
+    color: #B8C9C0;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.footer-links a:hover {
+    color: #F4C542;
+}
 
 
+.footer-contact p {
+    color: #B8C9C0;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.footer-button {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #F4C542;
+    color: #174A3A;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.footer-button:hover {
+    background: white;
+}
+
+
+.footer-bottom {
+    max-width: 1150px;
+    margin: auto;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-bottom p {
+    color: #8FA49A;
+    font-size: 12px;
+}
 
 
 
@@ -1052,6 +1341,46 @@ Dark Text = #1e2923
     .about-title{
         font-size: 34px;
     }
+
+    .contact-section {
+    padding: 70px 7%;
+    }
+
+    .contact-title {
+    font-size: 34px;
+    }
+
+    .contact-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    }
+
+    .contact-info,
+    .contact-form {
+    padding: 25px;
+    }
+
+    .cta-section {
+    padding: 70px 7%;
+    }
+
+.cta-title {
+    font-size: 34px;
+    }
+
+    .footer-section {
+    padding: 60px 7% 20px;
+}
+
+.footer-container {
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+
+.footer-bottom {
+    flex-direction: column;
+    gap: 8px;
+}
 
 }
 
